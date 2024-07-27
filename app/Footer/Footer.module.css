@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 112px 140px;
+  background-color: white;
+  width: 100%;
+}
+.rightContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  list-style-type: none;
+}
+.leftContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+.LeftItem {
+  display: flex;
+  column-gap: 16px;
+}
+.LeftItem span {
+  width: 150px;
+  text-align: left;
+}

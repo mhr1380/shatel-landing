@@ -1,0 +1,49 @@
+.headerContainer {
+  width: 100%;
+  height: 84px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 16px 140px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  justify-content: space-between;
+}
+.rightContainer {
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  column-gap: 50px;
+}
+.itemsContainer {
+  display: flex;
+  column-gap: 58px;
+  list-style-type: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+.leftContainer {
+  display: flex;
+  column-gap: 32px;
+}
+.leftContainer .button {
+  width: 140px;
+  height: 48px;
+  font-size: 18px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 0;
+  border: 0;
+  color: white;
+  border-radius: 35px;
+  cursor: pointer;
+}
+.buttonPrimary {
+  background-color: #f36339;
+}
+.buttonSecondary {
+  background-color: #303539;
+}
