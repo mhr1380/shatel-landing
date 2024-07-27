@@ -25,3 +25,21 @@
   width: 150px;
   text-align: left;
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 16px 32px;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    row-gap: 16px;
+  }
+  .rightContainer {
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  .leftContainer {
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}

@@ -95,3 +95,35 @@
   bottom: 0;
   right: 0;
 }
+@media screen and (max-width: 1156px) {
+  .innerContainer {
+    flex-direction: column;
+  }
+  .leftContainer,
+  .rightContainer {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .background {
+    display: none;
+  }
+  .popcorn {
+    margin-top: 30px;
+  }
+  .wifi {
+    top: 0;
+  }
+  .cloud {
+    top: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .leftContainer,
+  .rightContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .container {
+    padding: 60px;
+  }
+}

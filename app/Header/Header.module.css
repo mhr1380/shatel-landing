@@ -47,3 +47,20 @@
 .buttonSecondary {
   background-color: #303539;
 }
+@media screen and (max-width: 768px) {
+  .headerContainer {
+    padding: 16px 32px;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    row-gap: 16px;
+  }
+  .rightContainer {
+    flex-direction: column;
+    row-gap: 16px;
+  }
+  .leftContainer {
+    flex-direction: column;
+    row-gap: 16px;
+  }
+}
